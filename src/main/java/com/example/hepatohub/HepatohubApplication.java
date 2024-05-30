@@ -31,11 +31,4 @@ public class HepatohubApplication {
 		SpringApplication.run(HepatohubApplication.class, args);
 	}
 }
-@RestController
-class HelloWorldController {
 
-	@GetMapping("/")
-	public String hello() {
-		return "Hello World";
-	}
-}
