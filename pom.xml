@@ -17,6 +17,13 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<!-- Adicione as dependências do Swagger -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<!-- Outras dependências do seu projeto -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -63,5 +70,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
+
