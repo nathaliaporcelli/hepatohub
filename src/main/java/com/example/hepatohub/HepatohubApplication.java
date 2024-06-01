@@ -1,11 +1,10 @@
 package com.example.hepatohub;
+
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Objects;
 
 @SpringBootApplication
 public class HepatohubApplication {
