@@ -1,10 +1,9 @@
-package validation;
-
-import service.UserService;
+/*
+package com.example.hepatohub.validation;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
+import com.example.hepatohub.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
 
 public class EmailValidator implements ConstraintValidator<UniqueEmail, String> {
 
@@ -15,8 +14,10 @@ public class EmailValidator implements ConstraintValidator<UniqueEmail, String> 
     public void initialize(UniqueEmail constraintAnnotation) {
     }
 
-    @Override
+    */
+/*@Override
     public boolean isValid(String email, ConstraintValidatorContext context) {
         return userService.isEmailUnique(email);
-    }
-}
+    }*//*
+
+}*/

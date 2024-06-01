@@ -17,13 +17,14 @@ public class UserController {
     private UserService userService;
 
     @GetMapping
-    public List<User> list() {
+    public List<com.example.hepatohub.model.User> list() {
         return userService.listAllUsers();
     }
 
     @PostMapping
-    public ResponseEntity<User> createUser(@RequestBody User user) {
+    public ResponseEntity<User> createUser(@RequestBody com.example.hepatohub.model.User user) {
         User savedUser = userService.createUser(user);
         return ResponseEntity.status(HttpStatus.CREATED).body(savedUser);
     }
+
 }

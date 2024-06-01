@@ -1,9 +1,12 @@
 package com.example.hepatohub.model;
 
-import javax.persistence.*;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+
+import jakarta.persistence.Table;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Column;
+import jakarta.persistence.GenerationType;
 
 @Entity
 @Table(name = "\"User\"")
@@ -59,4 +62,3 @@ public class User {
         this.password = password;
     }
 }
-
